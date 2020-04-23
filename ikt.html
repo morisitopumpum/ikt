@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Blog</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+
+}
+body{
+	display: flex;
+	flex-direction: column;
+	background: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+	background-size: cover;
+
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size:23px;
+	margin-left: 1.66%;
+	font-weight:800;
+	text-transform:uppercase; 
+	border-bottom: 2px solid #F1F1F1;
+	width:30%;
+	padding-bottom: 20px
+}
+ul{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 3px;
+}
+
+.destinationWrap {
+	display: flex;
+}
+
+.imgWrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.bodyWrap {
+	background: rgba(255,255,255,.85);
+	margin: 20px;
+	padding: 20px;
+
+}
+.press{
+	background:rgb(3, 232, 252);
+	border:2px solid #F1F1F1;
+}
+.email{
+	border:4px solid #F1F1F1;
+}
+
+
+
+	</style>
+
+</head>
+<body>
+<div class="bodyWrap">
+
+	<h1>Tomáš Morong blog</h1>
+		<div class="imgWrap">
+
+	<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
+	<img src=" http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
+	<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
+
+	<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg"> 
+	<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg"> 
+	<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
+
+	<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg"> 
+	<img src=" http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg"> 
+	<img src=" http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
+		</div >
+
+	<div class="destinationWrap">
+		<ul>
+		<h3>Destination</h3>
+
+			<li>Lake</li>
+			<li>Forrest</li>
+			<li>Sahara</li>
+		</ul>
+		
+		<ul>
+ 			<h3>Motivation</h3>
+
+			<li>Old times</li>
+			<li>Normal people</li>
+			<li>Beautiful nature</li>
+		</ul>
+		<ul>
+			<h3>Experience</h3>
+			<li>New friends</li>
+			<li>Fresh air</li>
+			<li>New country reached</li>
+		</ul>
+
+	</div>
+	 <p>
+	<strong>Lorem Ipsum</strong><br>
+	 Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br><a class="press"href="https://www.youtube.com/watch?v=80OeRwfKew8">Press for video</a></p>
+
+	<div>
+	<label class="email" for="email">Enter your email for photos:</label><br>
+    <input class="email" type="email" id="email" name="email" placeholder="Jan@seznam.cz" required><br>
+    </div>
+	<button>GO</button>
+	
+	
+
+</div>
+
+	
+</body>
+</html>
